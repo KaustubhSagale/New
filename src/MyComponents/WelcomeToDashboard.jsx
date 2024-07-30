@@ -5,8 +5,7 @@ import Pie from '../scenes/pie';
 import Line from '../scenes/line';
 import Dashboard from '../scenes/dashboard';
 
-import '/Users/kaustubhsagale/Desktop/carproject/src/styles/LoginPage.css'; // Import the CSS file
-
+import '../styles/LoginPage.css'; 
 import { useState } from "react";
 import { Routes, Route, useNavigate } from "react-router-dom";
 import Topbar from "/Users/kaustubhsagale/Desktop/carproject/src/scenes/global/Topbar.jsx";

@@ -82,7 +82,8 @@
 
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import '/Users/kaustubhsagale/Desktop/carproject/src/styles/LoginPage.css'; // Import the CSS file
+import '../styles/LoginPage.css'; // Import the CSS file
+//src/styles/LoginPage.css
 
 const LoginPage = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
