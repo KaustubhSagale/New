@@ -1,5 +1,5 @@
 import { ResponsivePie } from "@nivo/pie";
-import { tokens } from "../theme";
+import { tokens } from "/Users/kaustubhsagale/Desktop/carproject/src/theme/theme.jsx";
 import { useTheme } from "@mui/material";
 import { mockPieData as data } from "../data/mockData";
 

@@ -22,7 +22,7 @@ import pie from "/Users/kaustubhsagale/Desktop/carproject/src/scenes/pie/index.j
 import FAQ from "/Users/kaustubhsagale/Desktop/carproject/src/scenes/faq/index.jsx";
 import Geography from "/Users/kaustubhsagale/Desktop/carproject/src/scenes/geography/index.jsx";
 import { CssBaseline, ThemeProvider } from "@mui/material";
-import { ColorModeContext, useMode } from "/Users/kaustubhsagale/Desktop/carproject/src/theme.jsx";
+import { ColorModeContext, useMode } from "/Users/kaustubhsagale/Desktop/carproject/src/theme/theme.jsx";
 import Calendar from "/Users/kaustubhsagale/Desktop/carproject/src/scenes/calendar/calendar.jsx";
 import getContact from './getcontact';
 const WelcomePage = ({ username }) => {
