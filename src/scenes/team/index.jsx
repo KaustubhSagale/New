@@ -1,13 +1,14 @@
 import { Box, Typography, useTheme } from "@mui/material";
 import { DataGrid } from "@mui/x-data-grid";
-import { tokens } from "/Users/kaustubhsagale/Desktop/carproject/src/theme/theme.jsx";
 import { mockDataTeam } from "../../data/mockData";
 import AdminPanelSettingsOutlinedIcon from "@mui/icons-material/AdminPanelSettingsOutlined";
 import LockOpenOutlinedIcon from "@mui/icons-material/LockOpenOutlined";
 import SecurityOutlinedIcon from "@mui/icons-material/SecurityOutlined";
-import Headerr from "/Users/kaustubhsagale/Desktop/carproject/src/MyComponents/Headerr.jsx";
+import Headerr from "../../MyComponents/Headerr.jsx";
+import { tokens } from "../../theme/theme.jsx";
 
 const Team = () => {
+  
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
   const columns = [

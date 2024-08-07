@@ -1,13 +1,15 @@
 import { useTheme } from "@mui/material";
 import { ResponsiveChoropleth } from "@nivo/geo";
 import { geoFeatures } from "../data/mockGeoFeatures";
-import { tokens } from "/Users/kaustubhsagale/Desktop/carproject/src/theme/theme.jsx";
+//import { tokens } from "/Users/kaustubhsagale/Desktop/carproject/src/theme/theme.jsx";
 import { mockGeographyData as data } from "../data/mockData";
+import { tokens } from "../theme/theme";
 
 const GeographyChart = ({ isDashboard = false }) => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
   return (
+    
     <ResponsiveChoropleth
       data={data}
       theme={{

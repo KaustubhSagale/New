@@ -1,6 +1,8 @@
 
 import React from 'react'
-import '/Users/kaustubhsagale/Desktop/carproject/src/styles/Header.css';
+//import '/Users/kaustubhsagale/Desktop/carproject/src/styles/Header.css';
+import '../styles/Header.css';
+
 // import './Header.css';
 import { Link } from 'react-router-dom';
 // import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';

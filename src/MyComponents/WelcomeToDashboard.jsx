@@ -8,23 +8,43 @@ import Dashboard from '../scenes/dashboard';
 import '../styles/LoginPage.css'; 
 import { useState } from "react";
 import { Routes, Route, useNavigate } from "react-router-dom";
-import Topbar from "/Users/kaustubhsagale/Desktop/carproject/src/scenes/global/Topbar.jsx";
-import Sidebar from "/Users/kaustubhsagale/Desktop/carproject/src/scenes/global/Sidebar.jsx";
-import dashboard from "/Users/kaustubhsagale/Desktop/carproject/src/scenes/dashboard/index.jsx";
-import Team from "/Users/kaustubhsagale/Desktop/carproject/src/scenes/team/index.jsx";
-import Invoices from "/Users/kaustubhsagale/Desktop/carproject/src/scenes/invoices/index.jsx";
-import Contacts from "/Users/kaustubhsagale/Desktop/carproject/src/scenes/contacts/index.jsx";
-import bar from "/Users/kaustubhsagale/Desktop/carproject/src/scenes/bar/index.jsx";
-import Form from "/Users/kaustubhsagale/Desktop/carproject/src/scenes/form/index.jsx";
-import line from "/Users/kaustubhsagale/Desktop/carproject/src/scenes/line/index.jsx";
-import pie from "/Users/kaustubhsagale/Desktop/carproject/src/scenes/pie/index.jsx";
-import FAQ from "/Users/kaustubhsagale/Desktop/carproject/src/scenes/faq/index.jsx";
-import Geography from "/Users/kaustubhsagale/Desktop/carproject/src/scenes/geography/index.jsx";
+// import Topbar from "/Users/kaustubhsagale/Desktop/carproject/src/scenes/global/Topbar.jsx";
+// import Sidebar from "/Users/kaustubhsagale/Desktop/carproject/src/scenes/global/Sidebar.jsx";
+// import dashboard from "/Users/kaustubhsagale/Desktop/carproject/src/scenes/dashboard/index.jsx";
+// import Team from "/Users/kaustubhsagale/Desktop/carproject/src/scenes/team/index.jsx";
+// import Invoices from "/Users/kaustubhsagale/Desktop/carproject/src/scenes/invoices/index.jsx";
+// import Contacts from "/Users/kaustubhsagale/Desktop/carproject/src/scenes/contacts/index.jsx";
+// import bar from "/Users/kaustubhsagale/Desktop/carproject/src/scenes/bar/index.jsx";
+// import Form from "/Users/kaustubhsagale/Desktop/carproject/src/scenes/form/index.jsx";
+// import line from "/Users/kaustubhsagale/Desktop/carproject/src/scenes/line/index.jsx";
+// import pie from "/Users/kaustubhsagale/Desktop/carproject/src/scenes/pie/index.jsx";
+// import FAQ from "/Users/kaustubhsagale/Desktop/carproject/src/scenes/faq/index.jsx";
+// import Geography from "/Users/kaustubhsagale/Desktop/carproject/src/scenes/geography/index.jsx";
+import Topbar from '../scenes/global/Topbar'
+import Sidebar from '../scenes/global/Sidebar'
+import dashboard from '../scenes/dashboard/index'
+import Team from '../scenes/team/index'
+import Invoices from '../scenes/invoices/index'
+import Contacts from '../scenes/contacts/index'
+import bar from '../scenes/bar/index'
+import Form from '../scenes/form/index'
+import line from '../scenes/line/index'
+import pie from '../scenes/pie/index'
+import FAQ from '../scenes/faq/index'
+import Geography from '../scenes/geography/index'
+
+
+
 import { CssBaseline, ThemeProvider } from "@mui/material";
-import { ColorModeContext, useMode } from "/Users/kaustubhsagale/Desktop/carproject/src/theme/theme.jsx";
-import Calendar from "/Users/kaustubhsagale/Desktop/carproject/src/scenes/calendar/calendar.jsx";
+//import { ColorModeContext, useMode } from "/Users/kaustubhsagale/Desktop/carproject/src/theme/theme.jsx";
+//import Calendar from "/Users/kaustubhsagale/Desktop/carproject/src/scenes/calendar/calendar.jsx";
+import Calendar from '../scenes/calendar/calendar'
+import { ColorModeContext, useMode } from '../theme/theme'
+
 import getContact from './getcontact';
 const WelcomePage = ({ username }) => {
+  
+  
     const [theme, colorMode] = useMode();
     const [isSidebar, setIsSidebar] = useState(true);
     const nevigate= useNavigate();
@@ -79,6 +99,7 @@ function DataComponent() {
   };
 
   return (
+    
     <div>
       {data.map(item => (
         <getContact key={item.id} data={item} />
@@ -95,6 +116,7 @@ function DataComponent() {
 
 // const WelcomePage = ({ username }) => {
   return (
+    
    
     <div>
 <ColorModeContext.Provider value={colorMode}>

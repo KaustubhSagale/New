@@ -1,6 +1,8 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import '/Users/kaustubhsagale/Desktop/carproject/src/styles/Footer.css';
+//import '/Users/kaustubhsagale/Desktop/carproject/src/styles/Footer.css';
+import '../styles/Footer.css';
+
 const Footer = () => {
   return (
    

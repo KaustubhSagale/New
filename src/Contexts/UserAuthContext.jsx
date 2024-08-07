@@ -320,13 +320,17 @@
 
 // export { UserAuthContextProvider };
 
+import firebase from '../firebase.jsx';
 
 
 
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import firebase from '/Users/kaustubhsagale/Desktop/carproject/src/firebase.jsx';
-import { auth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, signInWithPopup, GoogleAuthProvider, onAuthStateChanged, FacebookAuthProvider, signInWithPhoneNumber } from '/Users/kaustubhsagale/Desktop/carproject/src/firebase.jsx'; // Import Firebase functions
+// import firebase from '/Users/kaustubhsagale/Desktop/carproject/src/firebase.jsx';
+import { auth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, signInWithPopup, GoogleAuthProvider, onAuthStateChanged, FacebookAuthProvider, signInWithPhoneNumber } from '../firebase.jsx'; // Import Firebase functions
 const UserAuthContext = createContext();
+// importing file
+
+
 
 function UserAuthContextProvider({ children }) {
   const [user, setUser] = useState({});
@@ -373,6 +377,7 @@ function UserAuthContextProvider({ children }) {
         setVerificationError(null);
         return verificationId;
       })
+      
       .catch((error) => {
         setVerificationError(error.message);
         console.error("Error sending verification code:", error);

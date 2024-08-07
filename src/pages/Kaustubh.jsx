@@ -2,8 +2,10 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from 'react-router-dom';
 import { Button, Image, Text, VStack } from '@chakra-ui/react'
+import "../styles/UserProfile.css"
+//import "/Users/kaustubhsagale/Desktop/carproject/src/styles/UserProfile.css";
 
-import "/Users/kaustubhsagale/Desktop/carproject/src/styles/UserProfile.css";
+
 import {
   CButton,
   CModal,

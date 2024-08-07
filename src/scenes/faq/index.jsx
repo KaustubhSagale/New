@@ -1,13 +1,15 @@
 import { Box, useTheme } from "@mui/material";
-import Headerr from "/Users/kaustubhsagale/Desktop/carproject/src/MyComponents/Headerr.jsx";
+import Headerr from "../../MyComponents/Headerr.jsx";
+
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import { tokens } from "/Users/kaustubhsagale/Desktop/carproject/src/theme/theme.jsx";
+import { tokens } from "../../theme/theme";
 
 const FAQ = () => {
+  
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
   return (

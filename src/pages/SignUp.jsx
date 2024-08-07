@@ -115,13 +115,15 @@
 // };
 
 // export default SignUp;
+import { UserAuthContextProvider, useUserAuth } from "../Contexts/UserAuthContext";
 import MyAppComponent from "../MyComponents/MyAppComponent";
 import React from 'react'
-import { UserAuthContextProvider } from '/Users/kaustubhsagale/Desktop/carproject/src/Contexts/UserAuthContext.jsx'; // Relative import path
-import { useUserAuth } from '/Users/kaustubhsagale/Desktop/carproject/src/Contexts/UserAuthContext.jsx';
+//import { UserAuthContextProvider } from '/Users/kaustubhsagale/Desktop/carproject/src/Contexts/UserAuthContext.jsx'; // Relative import path
+//import { useUserAuth } from '/Users/kaustubhsagale/Desktop/carproject/src/Contexts/UserAuthContext.jsx';
 
 const SignUp = () => {
   return (
+  
     <div>
 <UserAuthContextProvider>
     <MyAppComponent />

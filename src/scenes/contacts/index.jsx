@@ -1,13 +1,15 @@
 import { Box } from "@mui/material";
 import { DataGrid, GridToolbar } from "@mui/x-data-grid";
-import { tokens } from "/Users/kaustubhsagale/Desktop/carproject/src/theme/theme.jsx";
+// import { tokens } from "/Users/kaustubhsagale/Desktop/carproject/src/theme/theme.jsx";
 import { mockDataContacts } from "../../data/mockData";
-import Headerr from "/Users/kaustubhsagale/Desktop/carproject/src/MyComponents/Headerr.jsx";
 import { useTheme } from "@mui/material";
+import Headerr from "../../MyComponents/Headerr.jsx";
+import { tokens } from "../../theme/theme.jsx";
 
 const Contacts = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
+  
 
   const columns = [
     { field: "id", headerName: "ID", flex: 0.5 },

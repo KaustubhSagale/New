@@ -1,8 +1,8 @@
 import React from 'react'
 import { Card } from 'react-bootstrap'
-import '/Users/kaustubhsagale/Desktop/carproject/src/styles/Card.css';
+//import '/Users/kaustubhsagale/Desktop/carproject/src/styles/Card.css';
 
-
+import "../styles/Card.css";
 function Cards() {
   return (
     <div className="cards-container">

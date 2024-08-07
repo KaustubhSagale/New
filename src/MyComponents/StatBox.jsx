@@ -1,12 +1,16 @@
 import { Box, Typography, useTheme } from "@mui/material";
-import { tokens } from "/Users/kaustubhsagale/Desktop/carproject/src/theme/theme.jsx";
+//import { tokens } from "/Users/kaustubhsagale/Desktop/carproject/src/theme/theme.jsx";
+//import '../theme/theme.jsx'
+
 import ProgressCircle from "./ProgressCircle";
+import { tokens } from "../theme/theme";
 
 const StatBox = ({ title, subtitle, icon, progress, increase }) => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
 
   return (
+   
     <Box width="100%" m="0 30px">
       <Box display="flex" justifyContent="space-between">
         <Box>

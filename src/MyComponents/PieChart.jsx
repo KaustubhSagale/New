@@ -1,7 +1,11 @@
 import { ResponsivePie } from "@nivo/pie";
-import { tokens } from "/Users/kaustubhsagale/Desktop/carproject/src/theme/theme.jsx";
+//import { tokens } from "/Users/kaustubhsagale/Desktop/carproject/src/theme/theme.jsx";
+import '../theme/theme'
+
+
 import { useTheme } from "@mui/material";
 import { mockPieData as data } from "../data/mockData";
+import { tokens } from "../theme/theme";
 
 const PieChart = () => {
   const theme = useTheme();

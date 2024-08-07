@@ -1,4 +1,5 @@
-import { tokens } from "/Users/kaustubhsagale/Desktop/carproject/src/theme/theme.jsx";
+import { tokens } from "../theme/theme";
+
 
 export const mockDataTeam = [
   {

@@ -197,7 +197,9 @@
 
 
 import React, { useEffect, useRef } from 'react';
-import '/Users/kaustubhsagale/Desktop/carproject/src/styles/Map.css';
+//import '/Users/kaustubhsagale/Desktop/carproject/src/styles/Map.css';
+import '../styles/Map.css';
+
 
 const Map = () => {
   const hoverRef = useRef(null);

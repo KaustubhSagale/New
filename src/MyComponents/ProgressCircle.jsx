@@ -1,8 +1,11 @@
 import { Box, useTheme } from "@mui/material";
-import { tokens } from "/Users/kaustubhsagale/Desktop/carproject/src/theme/theme.jsx";
+import { tokens } from "../theme/theme";
+//import { tokens } from "/Users/kaustubhsagale/Desktop/carproject/src/theme/theme.jsx";
 
 const ProgressCircle = ({ progress = "0.75", size = "40" }) => {
   const theme = useTheme();
+  
+
   const colors = tokens(theme.palette.mode);
   const angle = progress * 360;
   return (

@@ -1,5 +1,4 @@
 import { Box, Button, IconButton, Typography, useTheme } from "@mui/material";
-import { tokens } from "/Users/kaustubhsagale/Desktop/carproject/src/theme/theme.jsx";
 import React, { useState, useEffect } from 'react';
 
 import { mockTransactions } from "../../data/mockData";
@@ -8,7 +7,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
 import PersonAddIcon from "@mui/icons-material/PersonAdd";
 import TrafficIcon from "@mui/icons-material/Traffic";
-import Headerr from "/Users/kaustubhsagale/Desktop/carproject/src/MyComponents/Headerr.jsx";
+import Headerr from "../../MyComponents/Headerr.jsx";
 // import GeographyChart from "../../components/GeographyChart";
 // import BarChart from "../../components/BarChart";
 // import StatBox from "../../components/StatBox";
@@ -16,16 +15,18 @@ import Headerr from "/Users/kaustubhsagale/Desktop/carproject/src/MyComponents/H
 // import Bar from "../scenes/bar";
 // import Pie from '../scenes/pie';
 // import Line from '../scenes/line';
-import StatBox from '/Users/kaustubhsagale/Desktop/carproject/src/MyComponents/StatBox.jsx';
+import StatBox from '../../MyComponents/StatBox.jsx';
+
 // import GeographyChart from '/Users/kaustubhsagale/Desktop/carproject/src/MyComponents/GeographyChart.jsx';
-import BarChart from '/Users/kaustubhsagale/Desktop/carproject/src/MyComponents/BarCharts.jsx';
-import ProgressCircle from '/Users/kaustubhsagale/Desktop/carproject/src/MyComponents/ProgressCircle.jsx';
+import BarChart from '../../MyComponents/BarCharts.jsx';
+import ProgressCircle from '../../MyComponents/ProgressCircle.jsx';
 // import Sidebar from "../global/Sidebar";
 // import Topbar from "../global/Topbar";
 import LineC from "../../MyComponents/LineC";
-import LineChart from "/Users/kaustubhsagale/Desktop/carproject/src/MyComponents/LineChart.jsx";
+import LineChart from "../../MyComponents/LineChart.jsx";
 import getContact from "../../MyComponents/getcontact";
 import axios from "axios";
+import { tokens } from "../../theme/theme";
 const Dashboard = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);

@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
-import Headerr from "/Users/kaustubhsagale/Desktop/carproject/src/MyComponents/Headerr.jsx";
-import LineChart from "/Users/kaustubhsagale/Desktop/carproject/src/MyComponents/LineChart.jsx";
+import Headerr from "../../MyComponents/Headerr.jsx";
+import LineChart from "../../MyComponents/LineChart.jsx";
 
 const Line = () => {
   return (

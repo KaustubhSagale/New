@@ -1,6 +1,8 @@
 import React from 'react'
 // import './Features.css';
-import '/Users/kaustubhsagale/Desktop/carproject/src/styles/Features.css';
+//import '/Users/kaustubhsagale/Desktop/carproject/src/styles/Features.css';
+import '../styles/Features.css';
+
 import { Container, Row, Col, Card } from 'react-bootstrap';
 
 const Features = () => {

@@ -1,6 +1,8 @@
 import React from 'react'
 // import './Coursesoffer.css'; 
-import '/Users/kaustubhsagale/Desktop/carproject/src/styles/Coursesoffer.css';
+//import '/Users/kaustubhsagale/Desktop/carproject/src/styles/Coursesoffer.css';
+import '../styles/Coursesoffer.css';
+
 const Coursesoffer = () => {
   return (
     <div>

@@ -1,9 +1,10 @@
 import { Box, useTheme } from "@mui/material";
-import GeographyChart from "/Users/kaustubhsagale/Desktop/carproject/src/MyComponents/GeographyChart.jsx";
-import Headerr from "/Users/kaustubhsagale/Desktop/carproject/src/MyComponents/Headerr.jsx";
-import { tokens } from "/Users/kaustubhsagale/Desktop/carproject/src/theme/theme.jsx";
+import GeographyChart from "../../MyComponents/GeographyChart.jsx";
+import Headerr from "../../MyComponents/Headerr.jsx";
+import { tokens } from "../../theme/theme.jsx";
 
 const Geography = () => {
+  
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
   return (

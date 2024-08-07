@@ -144,10 +144,15 @@ import {
   Typography,
   useTheme,
 } from "@mui/material";
-import Headerr from '/Users/kaustubhsagale/Desktop/carproject/src/MyComponents/Headerr.jsx';
-import { tokens } from "/Users/kaustubhsagale/Desktop/carproject/src/theme/theme.jsx";
+//import Headerr from '/Users/kaustubhsagale/Desktop/carproject/src/MyComponents/Headerr.jsx';
+import Headerr from "../../MyComponents/Headerr.jsx";
+
+import { tokens } from "../../theme/theme";
+//import { tokens } from "/Users/kaustubhsagale/Desktop/carproject/src/theme/theme.jsx";
 
 const Calendar = () => {
+  //tokens
+
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
   const [currentEvents, setCurrentEvents] = useState([]);

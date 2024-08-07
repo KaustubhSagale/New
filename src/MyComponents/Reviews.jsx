@@ -1,5 +1,5 @@
 import React from 'react'
-import '/Users/kaustubhsagale/Desktop/carproject/src/styles/Reviews.css';
+import '../styles/Reviews.css';
 import CardGroup from 'react-bootstrap/CardGroup';
 import { Card } from 'react-bootstrap';
 

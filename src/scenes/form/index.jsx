@@ -2,7 +2,7 @@ import { Box, Button, TextField } from "@mui/material";
 import { Formik } from "formik";
 import * as yup from "yup";
 import useMediaQuery from "@mui/material/useMediaQuery";
-import Headerr from "/Users/kaustubhsagale/Desktop/carproject/src/MyComponents/Headerr.jsx";
+import Headerr from "../../MyComponents/Headerr.jsx";
 
 const Form = () => {
   const isNonMobile = useMediaQuery("(min-width:600px)");

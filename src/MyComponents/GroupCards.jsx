@@ -1,9 +1,11 @@
 import React from 'react'
 
-import '/Users/kaustubhsagale/Desktop/carproject/src/styles/GroupCards.css';
+//import '/Users/kaustubhsagale/Desktop/carproject/src/styles/GroupCards.css';
 import CardGroup from 'react-bootstrap/CardGroup';
 import { Card, Container } from 'react-bootstrap';
-import '/Users/kaustubhsagale/Desktop/carproject/src/styles/GroupCards.css';
+//import '/Users/kaustubhsagale/Desktop/carproject/src/styles/GroupCards.css';
+import '../styles/GroupCards.css';
+
 const GroupCards = () => {
   
 

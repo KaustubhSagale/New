@@ -28,10 +28,11 @@
 
 
 import React from 'react';
-import '/Users/kaustubhsagale/Desktop/carproject/src/styles/About.css';
+import "../styles/About.css";
 const About = () => {
   return (
     <>
+  
      <div className='container11'>
  <strong className='rrrr'>ABOUT AHEN MOTOR</strong>
 
